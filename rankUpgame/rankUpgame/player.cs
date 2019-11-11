@@ -18,11 +18,13 @@ namespace rankUpgame
             sprite = Sprite;
             pos = Pos;
         }
+
         protected override void Update(GameTime gameTime)
         {
             
             base.Update(gameTime);
         }
+
         public void Draw(SpriteBatch sp)
         {
             sp.Draw(sprite, pos);
@@ -38,19 +40,26 @@ namespace rankUpgame
         }
 
         Vector2 prevPos;
-        public void GroundCollision(LevelGeometry geometry)
+        public void GroundCollision(List<LevelGeometry> geometry)
         {
-           
-            if (pos.Y + sprite.Height >= geometry.pos.Y && pos.X >=geometry.pos.X && pos.X <= geometry.pos.X + geometry.tex.Width)
+            bool collided = false;
+            for (int i = 0; i < geometry.Count; i++)
             {
-                pos = new Vector2(pos.X,prevPos.Y);
-                hasjumped = false;
+                if (pos.Y + sprite.Height >= geometry[i].pos.Y && pos.Y + sprite.Height < geometry[i].pos.Y + geometry[i].tex.Height && pos.X >= geometry[i].pos.X && pos.X <= geometry[i].pos.X + geometry[i].tex.Width)
+                {
+                    collided = true;
+                    System.Diagnostics.Debug.Print("pos changed from:" + pos);
+                    pos = new Vector2(pos.X, prevPos.Y);
+                    System.Diagnostics.Debug.Print("to:" + prevPos);
+                    hasjumped = false;
+                  
+                }
             }
-            else
+
+            if (!collided)
             {
                 prevPos = pos;
             }
-
 
         }
         Vector2 vel = new Vector2(0, 0);
@@ -61,10 +70,10 @@ namespace rankUpgame
                 pos += vel;
             if (Keyboard.GetState().IsKeyDown(Keys.D))
             {
-                vel.X = 1;
+                vel.X = 3;
             }else if (Keyboard.GetState().IsKeyDown(Keys.A))
             {
-                vel.X = -1;
+                vel.X = -3;
             }
             else
             {

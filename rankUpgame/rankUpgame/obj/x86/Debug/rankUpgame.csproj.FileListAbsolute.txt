@@ -23,3 +23,30 @@ c:\users\bradl\source\repos\rankUpgame\rankUpgame\obj\x86\Debug\rankUpgame.exe
 c:\users\bradl\source\repos\rankUpgame\rankUpgame\obj\x86\Debug\rankUpgame.pdb
 c:\users\bradl\source\repos\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\Untitled-1.xnb
 c:\users\bradl\source\repos\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\floor.xnb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\floor.xnb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\Untitled-1.xnb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\rankUpgame.exe
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\rankUpgame.pdb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\obj\x86\Debug\rankUpgame.csprojAssemblyReference.cache
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\obj\x86\Debug\rankUpgame.csproj.CoreCompileInputs.cache
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\obj\x86\Debug\rankUpgame.csproj.CopyComplete
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\obj\x86\Debug\rankUpgame.exe
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\obj\x86\Debug\rankUpgame.pdb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\ariel.xnb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\File.xnb

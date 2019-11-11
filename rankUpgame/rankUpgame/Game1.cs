@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-
+using System.Collections.Generic;
 namespace rankUpgame
 {
     public class Game1 : Game
@@ -9,7 +9,8 @@ namespace rankUpgame
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         Player player;
-        LevelGeometry geometry;
+        List<LevelGeometry> level = new List<LevelGeometry>();
+        SpriteFont font;
         Texture2D pSprite;
         Texture2D LGsprite;
         public Game1()
@@ -31,9 +32,10 @@ namespace rankUpgame
             spriteBatch = new SpriteBatch(GraphicsDevice);
             pSprite = this.Content.Load<Texture2D>("Untitled-1");
             LGsprite = this.Content.Load<Texture2D>("floor");
+            font = this.Content.Load<SpriteFont>("File");
 
-
-            geometry = new LevelGeometry(LGsprite, new Vector2(0, 300));
+            level.Add(new LevelGeometry(LGsprite, new Vector2(0, 300)));
+            level.Add( new LevelGeometry(LGsprite, new Vector2(400, 300)));
             player = new Player(pSprite, new Vector2(0, 0));
         }
 
@@ -45,30 +47,38 @@ namespace rankUpgame
        
         protected override void Update(GameTime gameTime)
         {
+            base.Update(gameTime);
+
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
 
             player.GravityApplication(5);
-            player.GroundCollision(geometry);
+
+           
             player.movement();
 
-
-
-
-            base.Update(gameTime);
+            player.GroundCollision(level);
         }
 
         protected override void Draw(GameTime gameTime)
         {
+            base.Draw(gameTime);
+
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin();
             player.Draw(spriteBatch);
-            geometry.DrawGeometry(spriteBatch);
+            for (int i = 0; i < level.Count; i++)
+            {
+                level[i].DrawGeometry(spriteBatch);
+                spriteBatch.DrawString(font, "" + level[i].pos, level[i].pos, Color.White);
+            }
+            spriteBatch.DrawString(font, "" + player.pos + "" , player.pos, Color.White);
+
             spriteBatch.End();
             
             
-            base.Draw(gameTime);
+            
         }
     }
 }

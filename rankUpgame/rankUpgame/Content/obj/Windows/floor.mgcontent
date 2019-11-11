@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/bradl/source/repos/rankUpgame/rankUpgame/Content/floor.png</SourceFile>
-  <SourceTime>2019-11-10T15:44:29.9556675+01:00</SourceTime>
-  <DestFile>C:/Users/bradl/source/repos/rankUpgame/rankUpgame/Content/bin/Windows/floor.xnb</DestFile>
-  <DestTime>2019-11-10T15:45:09.6906054+01:00</DestTime>
+  <SourceFile>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/floor.png</SourceFile>
+  <SourceTime>2019-11-11T09:42:50.3778763+01:00</SourceTime>
+  <DestFile>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/bin/Windows/floor.xnb</DestFile>
+  <DestTime>2019-11-11T10:49:44.3341974+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

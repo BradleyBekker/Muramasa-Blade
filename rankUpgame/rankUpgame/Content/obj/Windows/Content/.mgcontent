@@ -4,10 +4,14 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>c:/users/bradl/source/repos/rankUpgame/rankUpgame/Content/floor.png</File>
-    <File>c:/users/bradl/source/repos/rankUpgame/rankUpgame/Content/Untitled-1.png</File>
+    <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/ariel.spritefont</File>
+    <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/File.spritefont</File>
+    <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/floor.png</File>
+    <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/Untitled-1.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
