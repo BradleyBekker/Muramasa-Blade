@@ -10,7 +10,7 @@ namespace rankUpgame
 {
     class Player:Game
     {
-        Texture2D sprite { get; set;}
+       public Texture2D sprite { get; set;}
        public Vector2 pos { get; set;}
 
        public Player(Texture2D Sprite,Vector2 Pos)
@@ -45,14 +45,12 @@ namespace rankUpgame
             bool collided = false;
             for (int i = 0; i < geometry.Count; i++)
             {
-                if (pos.Y + sprite.Height >= geometry[i].pos.Y && pos.Y + sprite.Height < geometry[i].pos.Y + geometry[i].tex.Height && pos.X >= geometry[i].pos.X && pos.X <= geometry[i].pos.X + geometry[i].tex.Width)
+                if (pos.Y + sprite.Height >= geometry[i].pos.Y && pos.Y + sprite.Height < geometry[i].pos.Y + geometry[i].tex.Height && pos.X + sprite.Width >= geometry[i].pos.X && pos.X <= geometry[i].pos.X + geometry[i].tex.Width)
                 {
                     collided = true;
-                    System.Diagnostics.Debug.Print("pos changed from:" + pos);
                     pos = new Vector2(pos.X, prevPos.Y);
-                    System.Diagnostics.Debug.Print("to:" + prevPos);
                     hasjumped = false;
-                  
+                    vel.Y = 0;
                 }
             }
 

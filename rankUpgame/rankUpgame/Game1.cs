@@ -13,16 +13,18 @@ namespace rankUpgame
         SpriteFont font;
         Texture2D pSprite;
         Texture2D LGsprite;
+        Sword Sword;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            graphics.PreferredBackBufferHeight =720;
+            graphics.PreferredBackBufferWidth = 1820;
         }
 
         
         protected override void Initialize()
         {
-
             base.Initialize();
         }
 
@@ -36,7 +38,10 @@ namespace rankUpgame
 
             level.Add(new LevelGeometry(LGsprite, new Vector2(0, 300)));
             level.Add( new LevelGeometry(LGsprite, new Vector2(400, 300)));
+            level.Add( new LevelGeometry(LGsprite, new Vector2(700, 200)));
             player = new Player(pSprite, new Vector2(0, 0));
+            Texture2D Ssprite = this.Content.Load<Texture2D>("swordPH");
+            Sword = new Sword(Ssprite);
         }
 
        
@@ -59,6 +64,7 @@ namespace rankUpgame
             player.movement();
 
             player.GroundCollision(level);
+            Sword.action(player);
         }
 
         protected override void Draw(GameTime gameTime)
@@ -68,6 +74,8 @@ namespace rankUpgame
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin();
             player.Draw(spriteBatch);
+            Sword.Draw(spriteBatch);
+
             for (int i = 0; i < level.Count; i++)
             {
                 level[i].DrawGeometry(spriteBatch);

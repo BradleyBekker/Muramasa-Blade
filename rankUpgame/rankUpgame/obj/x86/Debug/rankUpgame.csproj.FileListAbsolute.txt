@@ -50,3 +50,4 @@ C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\ra
 C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\obj\x86\Debug\rankUpgame.pdb
 C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\ariel.xnb
 C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\File.xnb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\SwordPH.xnb
