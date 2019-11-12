@@ -36,7 +36,6 @@ namespace rankUpgame
             {
                 active = false;
             }
-            System.Diagnostics.Debug.Print("" + timer);
             timer++;
         }
 
@@ -48,7 +47,27 @@ namespace rankUpgame
                 sp.Draw(sprite, pos);
             }
         }
-        
+        public void CombatCollision(List<Entities> entities)
+        {
+            if (active)
+            {
+                // check collision with entitie
+                for (int i = 0; i < entities.Count; i++)
+                {
+                    if (pos.Y + sprite.Height >= entities[i].pos.Y && pos.Y + sprite.Height < entities[i].pos.Y + entities[i].sprite.Height && pos.X + sprite.Width >= entities[i].pos.X && pos.X <= entities[i].pos.X + entities[i].sprite.Width)
+                    {
+                        //do logic
+                        System.Diagnostics.Debug.Print("coll");
+                        entities.Remove(entities[i]);
+                    }
+                }
+                
+
+            }
+
+
+        }
+
 
 
     }

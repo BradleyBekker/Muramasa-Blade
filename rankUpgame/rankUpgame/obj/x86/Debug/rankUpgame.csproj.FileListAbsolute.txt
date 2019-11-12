@@ -51,3 +51,5 @@ C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\ra
 C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\ariel.xnb
 C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\File.xnb
 C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\SwordPH.xnb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\enemyPH.xnb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\innocentPH.xnb

@@ -2,6 +2,8 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
+ 
+
 namespace rankUpgame
 {
     public class Game1 : Game
@@ -14,6 +16,7 @@ namespace rankUpgame
         Texture2D pSprite;
         Texture2D LGsprite;
         Sword Sword;
+        List<Entities> Mobs = new List<Entities>();
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -42,6 +45,11 @@ namespace rankUpgame
             player = new Player(pSprite, new Vector2(0, 0));
             Texture2D Ssprite = this.Content.Load<Texture2D>("swordPH");
             Sword = new Sword(Ssprite);
+
+            Texture2D Esprite = this.Content.Load<Texture2D>("enemyPH");
+            Texture2D Isprite = this.Content.Load<Texture2D>("innocentPH");
+            
+            Mobs.Add(new Enemies(new Vector2(464, 236), Esprite));
         }
 
        
@@ -65,14 +73,23 @@ namespace rankUpgame
 
             player.GroundCollision(level);
             Sword.action(player);
+            Sword.CombatCollision(Mobs);
+
+            
         }
 
         protected override void Draw(GameTime gameTime)
         {
             base.Draw(gameTime);
-
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin();
+
+            for (int i = 0; i < Mobs.Count; i++)
+            {
+                Mobs[i].draw(spriteBatch);
+
+            }
+
             player.Draw(spriteBatch);
             Sword.Draw(spriteBatch);
 
