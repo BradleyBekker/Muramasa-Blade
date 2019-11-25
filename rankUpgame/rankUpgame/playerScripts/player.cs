@@ -8,8 +8,10 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace rankUpgame
 {
-    class Player:Game
+    class Player
     {
+        enum direction {left, right }
+        direction dir = direction.right;
        public Texture2D sprite { get; set;}
        public Vector2 pos { get; set;}
 
@@ -19,11 +21,7 @@ namespace rankUpgame
             pos = Pos;
         }
 
-        protected override void Update(GameTime gameTime)
-        {
-            
-            base.Update(gameTime);
-        }
+ 
 
         public void Draw(SpriteBatch sp)
         {
@@ -45,13 +43,29 @@ namespace rankUpgame
             bool collided = false;
             for (int i = 0; i < geometry.Count; i++)
             {
-                if (pos.Y + sprite.Height >= geometry[i].pos.Y && pos.Y + sprite.Height < geometry[i].pos.Y + geometry[i].tex.Height && pos.X + sprite.Width >= geometry[i].pos.X && pos.X <= geometry[i].pos.X + geometry[i].tex.Width)
+                if (pos.Y + sprite.Height >= geometry[i].pos.Y && pos.Y + sprite.Height < geometry[i].pos.Y + geometry[i].tex.Height)
                 {
-                    collided = true;
-                    pos = new Vector2(pos.X, prevPos.Y);
-                    hasjumped = false;
-                    vel.Y = 0;
+                    if (pos.X + sprite.Width >= geometry[i].pos.X && pos.X <= geometry[i].pos.X + geometry[i].tex.Width)
+                    {
+                        collided = true;
+                        pos = new Vector2(pos.X, prevPos.Y);
+                        hasjumped = false;
+                        vel.Y = 0;
+                    }
+
                 }
+                if (pos.Y + sprite.Height >= geometry[i].pos.Y && pos.Y + sprite.Height < geometry[i].pos.Y + geometry[i].tex.Height)
+                {
+                    if (pos.X + sprite.Width >= geometry[i].pos.X && pos.X <= geometry[i].pos.X + geometry[i].tex.Width)
+                    {
+                    
+                        pos = new Vector2(prevPos.X, pos.Y);
+           
+                    }
+
+                }
+
+
             }
 
             if (!collided)
@@ -68,6 +82,7 @@ namespace rankUpgame
                 pos += vel;
             if (Keyboard.GetState().IsKeyDown(Keys.D))
             {
+                
                 vel.X = 3;
             }else if (Keyboard.GetState().IsKeyDown(Keys.A))
             {
@@ -79,8 +94,8 @@ namespace rankUpgame
             }
             if (Keyboard.GetState().IsKeyDown(Keys.Space) && !hasjumped)
             {
-                pos -= Vector2.UnitY *10;
-                vel.Y = -10;
+                pos -= Vector2.UnitY *15;
+                vel.Y = -12;
                 hasjumped = true;
             }
 
@@ -89,7 +104,7 @@ namespace rankUpgame
                 vel.Y +=  0.15f;
             }
         }
-
+       
 
     }
 }

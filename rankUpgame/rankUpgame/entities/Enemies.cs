@@ -12,7 +12,7 @@ namespace rankUpgame
     {
         public Enemies(Vector2 Pos, Texture2D Sprite) : base(Pos, Sprite)
         {
-
+            type = Type.enemy;
         }
         public override void behaviour()
         {

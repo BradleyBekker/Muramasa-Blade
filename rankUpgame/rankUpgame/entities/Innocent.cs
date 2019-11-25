@@ -12,7 +12,7 @@ namespace rankUpgame
     {
       public Innocent(Vector2 Pos, Texture2D Sprite) : base(Pos,Sprite)
         {
-
+            type = Type.innocent;
         }
         public override void behaviour()
         {

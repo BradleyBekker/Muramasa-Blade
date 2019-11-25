@@ -5,14 +5,32 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/ariel.spritefont</File>
+    <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/background.png</File>
     <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/enemyPH.png</File>
     <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/File.spritefont</File>
     <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/floor.png</File>
+    <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/floor2.png</File>
+    <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/goal.png</File>
+    <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/goalph.png</File>
+    <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/innocent.png</File>
     <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/innocentPH.png</File>
+    <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/platform.png</File>
+    <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/Player.png</File>
+    <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/satedSword.png</File>
+    <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/Sword.png</File>
     <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/SwordPH.png</File>
     <File>C:/Users/bradl/OneDrive/Documenten/solo projects/Blade of Muramasa/rankUpgame/rankUpgame/Content/Untitled-1.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

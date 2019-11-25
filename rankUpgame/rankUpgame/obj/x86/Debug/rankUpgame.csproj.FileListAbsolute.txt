@@ -53,3 +53,12 @@ C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\ra
 C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\SwordPH.xnb
 C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\enemyPH.xnb
 C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\innocentPH.xnb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\goalph.xnb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\floor2.xnb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\platform.xnb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\satedSword.xnb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\Sword.xnb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\goal.xnb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\Player.xnb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\background.xnb
+C:\Users\bradl\OneDrive\Documenten\solo projects\Blade of Muramasa\rankUpgame\rankUpgame\bin\Windows\x86\Debug\Content\innocent.xnb
